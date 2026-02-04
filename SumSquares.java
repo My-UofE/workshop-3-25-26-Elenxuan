@@ -1,24 +1,30 @@
-import java.util.Scanner; // We use the Scanner class from java.util to handle user input
+import java.util.Scanner;
 
 public class SumSquares {
     public static void main(String[] args) {
 
-        int startNum = Integer.parseInt(args[0]);
-        int endNum   = Integer.parseInt(args[1]);
+        int startNum, endNum;
 
+        if (args.length >= 2) {
         
-        double sum=0;
-        int count=0; 
-        int i = startNum;     
-        do {
-            sum+=i*i;
-            count++;
+            startNum = Integer.parseInt(args[0]);
+            endNum   = Integer.parseInt(args[1]);
+        } else {
+         
+            Scanner in = new Scanner(System.in);
+            startNum = in.nextInt();
+            endNum   = in.nextInt();
+        }
+
+        int sum = 0;
+        int i = startNum;
+
+        while (i <= endNum) {
+            sum += i * i;
             i++;
-        } while (i <= endNum);
-        double average = sum/count;
+        }
 
-        System.out.println("Average of squares from " + startNum + " to " + endNum + ":");
-        System.out.println(average);
-
+        System.out.println("Sum of squares from " + startNum + " to " + endNum + ":");
+        System.out.println(sum);
     }
 }

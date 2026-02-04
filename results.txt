@@ -36,7 +36,7 @@ SumSquares 1 3  ... failed
 SumSquares 2 7  ... failed
 FAILED: SumSquares.java
 ----
-javac AverageSquares.java ... failed
+javac AverageSquares.java ... ok
 AverageSquares 3 4  ... failed
 AverageSquares 1 3  ... failed
 AverageSquares 2 7  ... failed
