@@ -13,6 +13,8 @@ public class SumSquares {
         String name = in.nextLine();
 
         System.out.println("Hi " + name + "!"); */
+
+        
         System.out.print("Please enter the start value: ");
         int startNum = in.nextInt(); // Reads in an int from standard input
         in.nextLine();
@@ -20,18 +22,18 @@ public class SumSquares {
         System.out.print("Please enter the end value: ");
         int endNum = in.nextInt();
         
-        double sum=0;
-        int count=0; 
-        int i = startNum;     
+        int sum=0;
+        int i = startNum;      
         while (i <=endNum) {
             sum+=i*i;
-            count++;
             i++;
         }
-        double average = sum/count;
+/*         for(int i= startNum;i<= endNum;i++){
 
-         System.out.println("Average of squares from " + startNum + " to " + endNum + ":");
-        System.out.println(average);
+            sum+=i*i;
+        } */
+        System.out.println("Sum of squares from " + startNum + " to " + endNum + ":");
+        System.out.println(sum);
 
     }
 }
