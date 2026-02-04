@@ -13,24 +13,24 @@ javac AgeToGroup.java ... ok
 65 2 ... ok
 PASSED: AgeToGroup.java
 ----
-javac NumbersInSpanish.java ... failed
-0 Sorry I do not know that! ... failed
-1 uno ... failed
-2 dos ... failed
-3 tres ... failed
-4 cuatro ... failed
-5 cinco ... failed
-6 Sorry I do not know that! ... failed
-FAILED: NumbersInSpanish.java
+javac NumbersInSpanish.java ... ok
+0 Sorry I do not know that! ... ok
+1 uno ... ok
+2 dos ... ok
+3 tres ... ok
+4 cuatro ... ok
+5 cinco ... ok
+6 Sorry I do not know that! ... ok
+PASSED: NumbersInSpanish.java
 ----
 here
 javac PrintSquares.java ... ok
-PrintSquares 3 4  ... failed
-PrintSquares 1 3  ... failed
-PrintSquares 2 7  ... failed
-FAILED: PrintSquares.java
+PrintSquares 3 4  ... ok
+PrintSquares 1 3  ... ok
+PrintSquares 2 7  ... ok
+PASSED: PrintSquares.java
 ----
-javac SumSquares.java ... failed
+javac SumSquares.java ... ok
 SumSquares 3 4  ... failed
 SumSquares 1 3  ... failed
 SumSquares 2 7  ... failed
@@ -42,19 +42,19 @@ AverageSquares 1 3  ... failed
 AverageSquares 2 7  ... failed
 FAILED: AverageSquares.java
 ----
-javac PrintPattern1.java ... failed
-PrintPattern1 7 ... failed
-PrintPattern1 3 ... failed
-PrintPattern1 1 ... failed
-FAILED: PrintPattern1.java
+javac PrintPattern1.java ... ok
+PrintPattern1 7 ... ok
+PrintPattern1 3 ... ok
+PrintPattern1 1 ... ok
+PASSED: PrintPattern1.java
 ----
-javac PrintPattern2.java ... failed
-PrintPattern2 too small! ... failed
-PrintPattern2 too big! ... failed
-PrintPattern2 1  ... failed
-PrintPattern2 3  ... failed
-PrintPattern2 5  ... failed
-FAILED: PrintPattern2.java
+javac PrintPattern2.java ... ok
+PrintPattern2 too small! ... ok
+PrintPattern2 too big! ... ok
+PrintPattern2 1  ... ok
+PrintPattern2 3  ... ok
+PrintPattern2 5  ... ok
+PASSED: PrintPattern2.java
 ----
 --- RESULT: ---
-Your score is 2 / 7.5
+Your score is 5.5 / 7.5

@@ -1,6 +1,6 @@
 import java.util.Scanner; // We use the Scanner class from java.util to handle user input
 
-public class SumSquares {
+public class AverageSquares {
     public static void main(String[] args) {
 
         // Declare Scanner object
