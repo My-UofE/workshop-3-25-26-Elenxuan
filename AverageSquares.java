@@ -1,8 +1,18 @@
+import java.util.Scanner;
+
 public class AverageSquares {
     public static void main(String[] args) {
 
-        int startNum = Integer.parseInt(args[0]);
-        int endNum   = Integer.parseInt(args[1]);
+        int startNum, endNum;
+
+        if (args.length >= 2) {
+            startNum = Integer.parseInt(args[0]);
+            endNum   = Integer.parseInt(args[1]);
+        } else {
+            Scanner in = new Scanner(System.in);
+            startNum = in.nextInt();
+            endNum   = in.nextInt();
+        }
 
         double sum = 0;
         int count = 0;
